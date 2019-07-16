@@ -17,7 +17,6 @@
 .btn {
   display: inline-block;
   padding: 20px 40px;
-  text-decoration: none;
   text-transform: uppercase;
   font-size: 18px;
   font-weight: bold;
@@ -69,6 +68,10 @@ p {
       align-items: flex-start;
 }
 
+a {
+  text-decoration: none;
+}
+
 /* Nav */
 .nav {
   position: absolute;
@@ -97,7 +100,6 @@ p {
 .nav-menu li a {
   color: #fff;
   transition: all 0.4s ease;
-  text-decoration: none;
 }
 
 .nav-menu li a:hover {
@@ -178,5 +180,18 @@ p {
   -o-object-fit: cover;
      object-fit: cover;
   width: 100%;
+}
+
+/* Footer */
+.footer {
+  padding: 40px 0;
+  position: relative;
+}
+
+.footer-socials {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 /*# sourceMappingURL=style.css.map */
