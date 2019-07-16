@@ -14,6 +14,25 @@
   margin: 0 auto;
 }
 
+.btn {
+  display: inline-block;
+  padding: 20px 40px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: bold;
+  transition: all .4s ease;
+}
+
+.btn-one {
+  background: #fed136;
+  color: #fff;
+}
+
+.btn-one:hover {
+  background: #cd9f01;
+}
+
 /* Nav */
 .nav {
   position: absolute;
@@ -82,5 +101,6 @@
   font-size: 70px;
   font-weight: bold;
   text-transform: uppercase;
+  margin-bottom: 40px;
 }
 /*# sourceMappingURL=style.css.map */
