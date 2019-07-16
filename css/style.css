@@ -1,0 +1,86 @@
+/* Variables */
+/* Global */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+.container {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0 30px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+/* Nav */
+.nav {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.nav-logo {
+  margin-top: 45px;
+  display: block;
+  float: left;
+}
+
+.nav-menu {
+  float: right;
+}
+
+.nav-menu li {
+  display: inline-block;
+  margin-left: 40px;
+  margin-top: 45px;
+  text-transform: uppercase;
+}
+
+.nav-menu li a {
+  color: #fff;
+  transition: all 0.4s ease;
+  text-decoration: none;
+}
+
+.nav-menu li a:hover {
+  color: #fed136;
+}
+
+/* Header */
+.header {
+  background-image: url(/images/header.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.header .container {
+  height: 100vh;
+  position: relative;
+}
+
+.header-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #fff;
+  width: 100%;
+}
+
+.header-content h2 {
+  font-family: "Noto Serif", serif;
+  font-size: 40px;
+  margin-bottom: 50px;
+}
+
+.header-content h1 {
+  font-size: 70px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+/*# sourceMappingURL=style.css.map */
