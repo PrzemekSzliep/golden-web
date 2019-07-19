@@ -78,16 +78,24 @@ a {
   top: 0;
   left: 0;
   width: 100%;
+  transition: all 0.4s ease;
+  z-index: 4;
+}
+
+.nav.fixed {
+  background: #000;
+  position: fixed;
+  padding-bottom: 30px;
+}
+
+.nav .flex {
+  -ms-flex-pack: justify;
+      justify-content: space-between;
 }
 
 .nav-logo {
   margin-top: 45px;
   display: block;
-  float: left;
-}
-
-.nav-menu {
-  float: right;
 }
 
 .nav-menu li {

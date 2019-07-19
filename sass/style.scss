@@ -79,13 +79,21 @@ a {
     top: 0;
     left: 0;
     width: 100%;
+    transition: $transition;
+    z-index: 4;
+    &.fixed {
+        background: $c-three;
+        position: fixed;
+        padding-bottom: 30px;
+    }
+    .flex {
+        justify-content: space-between;
+    }
     &-logo {
         margin-top: 45px;
         display: block;
-        float: left;
     }
     &-menu {
-        float: right;
         li {
             display: inline-block;
             margin-left: 40px;
